@@ -63,14 +63,18 @@ header, section {
 .title > p {
     color: var(--secondary-text);
     margin-bottom: 20px;
-}
+}   
 
-label.dark-mode {
+.dark-mode {
     color: var(--secondary-text);
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 10px;
+}
+
+.dark-mode > label {
+    cursor: pointer;
 }
 
 .switch {
@@ -87,7 +91,6 @@ label.dark-mode {
   
 .slider {
     position: absolute;
-    cursor: pointer;
     top: 0;
     left: 0;
     right: 0;
