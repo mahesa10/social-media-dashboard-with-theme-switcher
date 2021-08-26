@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social media dashboard with theme switcher</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <div id="wrapper">
+    <header>
+      <div class="title">
+        <h1>Social Media Dashboard</h1>
+        <p>Total Followers: 23,004</p>
+      </div>
+      <label for="dark-switch" class="dark-mode">
+        Dark Mode
+        <div class="switch">
+          <input type="checkbox" role="switch" name="dark-mode" id="dark-switch">
+          <span class="slider"></span>
+        </div>
+      </label>
+    </header>
+  
+    <section class="dashboard">
+      <article class="dashboard-card" id="facebook">
+        <div class="handler-group">
+          <img src="images/icon-facebook.svg" alt="Facebook">
+          <p class="handler">@nathanf</p>
+        </div>
+        <div class="followers">
+          <h3 class="amount">1987</h3>
+          <p class="followers-text">FOLLOWERS</p>
+        </div>
+        <div class="dashboard-update">
+          <img src="images/icon-up.svg" alt="">
+          <p class="update-text green">12 Today</p>
+        </div>
+      </article>
+  
+      <article class="dashboard-card" id="twitter">
+        <div class="handler-group">
+          <img src="images/icon-twitter.svg" alt="Twitter">
+          <p class="handler">@nathanf</p>
+        </div>
+        <div class="followers">
+          <h3 class="amount">1044</h3>
+          <p class="followers-text">FOLLOWERS</p>
+        </div>
+        <div class="dashboard-update">
+          <img src="images/icon-up.svg" alt="">
+          <p class="update-text green">99 Today</p>
+        </div>
+      </article>
+  
+      <article class="dashboard-card" id="instagram">
+        <div class="handler-group">
+          <img src="images/icon-instagram.svg" alt="Instagram">
+          <p class="handler">@realnathanf</p>
+        </div>
+        <div class="followers">
+          <h3 class="amount">11k</h3>
+          <p class="followers-text">FOLLOWERS</p>
+        </div>
+        <div class="dashboard-update">
+          <img src="images/icon-up.svg" alt="">
+          <p class="update-text green">1099 Today</p>
+        </div>
+      </article>
+  
+      <article class="dashboard-card" id="youtube">
+        <div class="handler-group">
+          <img src="images/icon-youtube.svg" alt="Youtube">
+          <p class="handler">Nathan F.</p>
+        </div>
+        <div class="followers">
+          <h3 class="amount">8239</h3>
+          <p class="followers-text">SUBSCRIBERS</p>
+        </div>
+        <div class="dashboard-update">
+          <img src="images/icon-down.svg" alt="">
+          <p class="update-text red">144 Today</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="overview">
+      <h2>Overview - Today</h2>
+
+      <div class="overview-container">
+        <article class="overview-cards">
+          <div class="row row-one">          
+            <h3 class="overview-title">Page Views</h3>
+            <img src="images/icon-facebook.svg" alt="Facebook">
+          </div>
+          <div class="row row-two">          
+            <p class="number">87</p>
+            <div class="overview-update">
+              <img src="images/icon-up.svg" alt="">
+              <p class="green">3%</p>
+            </div>
+          </div>
+        </article>
+  
+        <article class="overview-cards">
+          <div class="row row-one">          
+            <h3 class="overview-title">Likes</h3>
+            <img src="images/icon-facebook.svg" alt="Facebook">
+          </div>
+          <div class="row row-two">          
+            <p class="number">52</p>
+            <div class="overview-update">
+              <img src="images/icon-down.svg" alt="">
+              <p class="red">2%</p>
+            </div>
+          </div>
+        </article>
+  
+        <article class="overview-cards">
+          <div class="row row-one">          
+            <h3 class="overview-title">Likes</h3>
+            <img src="images/icon-instagram.svg" alt="Instagram">
+          </div>
+          <div class="row row-two">          
+            <p class="number">5462</p>
+            <div class="overview-update">
+              <img src="images/icon-up.svg" alt="">
+              <p class="green">2257%</p>
+            </div>
+          </div>
+        </article>
+  
+        <article class="overview-cards">
+          <div class="row row-one">          
+            <h3 class="overview-title">Profile Views</h3>
+            <img src="images/icon-instagram.svg" alt="Instagram">
+          </div>
+          <div class="row row-two">          
+            <p class="number">52k</p>
+            <div class="overview-update">
+              <img src="images/icon-up.svg" alt="">
+              <p class="green">1375%</p>
+            </div>
+          </div>
+        </article>
+  
+        <article class="overview-cards">
+          <div class="row row-one">
+            <h3 class="overview-title">Retweets</h3>
+            <img src="images/icon-twitter.svg" alt="Twitter">          
+          </div>
+          <div class="row row-two">
+            <p class="number">117</p>
+            <div class="overview-update">
+              <img src="images/icon-up.svg" alt="">
+              <p class="green">303%</p>
+            </div>          
+          </div>
+        </article>
+  
+        <article class="overview-cards">
+          <div class="row row-one">          
+            <h3 class="overview-title">Likes</h3>
+            <img src="images/icon-twitter.svg" alt="Twitter">
+          </div>
+          <div class="row row-two">          
+            <p class="number">507</p>
+            <div class="overview-update">
+              <img src="images/icon-up.svg" alt="">
+              <p class="green">553%</p>
+            </div>
+          </div>
+        </article>
+  
+        <article class="overview-cards">
+          <div class="row row-one">          
+            <h3 class="overview-title">Likes</h3>
+            <img src="images/icon-youtube.svg" alt="Youtube">
+          </div>
+          <div class="row row-two">          
+            <p class="number">107</p>
+            <div class="overview-update">
+              <img src="images/icon-down.svg" alt="">
+              <p class="red">19%</p>
+            </div>
+          </div>
+        </article>
+  
+        <article class="overview-cards">
+          <div class="row row-one">          
+            <h3 class="overview-title">Total Views</h3>
+            <img src="images/icon-youtube.svg" alt="Youtube">
+          </div>
+          <div class="row row-two">          
+            <p class="number">1407</p>
+            <div class="overview-update">
+              <img src="images/icon-down.svg" alt="">
+              <p class="red">12%</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+    <section class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/mahesa10">Pandu Mahesa</a>.
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
