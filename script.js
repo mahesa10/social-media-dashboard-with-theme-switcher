@@ -29,6 +29,4 @@ function darkMode() {
     }    
 }
 
-
 window.addEventListener('change', darkMode);
-window.addEventListener('load', () => switcher.checked = true);
